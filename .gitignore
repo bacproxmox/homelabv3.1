@@ -1,0 +1,27 @@
+
+# Homelab local/private files
+.env
+*.env
+secrets/
+homelab-secrets/
+homelab-logs/
+homelab-support-*/
+homelab-support-*.tar.gz
+
+# Large/archive files
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.iso
+*.img
+*.qcow2
+*.vmdk
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
